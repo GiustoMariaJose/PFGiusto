@@ -11,6 +11,7 @@
 
 
 
+
 // Custom.scss
 // Option A: Include all of Bootstrap
 
@@ -20,3 +21,12 @@
 
 // Then add additional custom code here
 
+//Importación de fuente
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+* {
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Oswald", sans-serif;
+}

@@ -1,6 +1,6 @@
 @import "../base/variables";
 
-.hero {
+/*.hero {
     height: 100vh;
     background-image: url(../img/atardecer.jpg);
     background-repeat: no-repeat;
@@ -32,3 +32,46 @@
         text-shadow: 1px 1px 2px #02305c, 0 0 1em #f68401, 0 0 0.2em #f60101;
     }
 }
+*/
+/*carousel*/
+.hero {
+    height: 100vh;
+    .simple-linear {
+        background: linear-gradient(#02315ced, #bebfc4d2);
+    }
+   
+    
+    .carousel {
+        
+        .carousel-inner{
+            width: 80vw;
+            height: 80vh;
+
+            .image {
+                object-fit: cover;
+                height: 90vh;
+                width: 80%;
+                
+            }
+
+            
+
+            .carousel-caption {
+
+                top: 10px;
+                left: 10%;
+                z-index: 1;
+                color: black;
+                text-align: left;
+                margin-left: 0%;
+                padding-right: 70%;
+                padding-top: 15%;
+            }
+        }
+            
+
+    }  
+        
+          
+}
+
