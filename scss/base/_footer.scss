@@ -7,5 +7,20 @@
     .instagram, .whatsapp {
         width: 2rem;
     }
+    .btnWhats {
+        position: fixed;
+        width: 65px;
+        height: 65px;
+        line-height: 65px;
+        bottom: 5px;
+        right: 30px;
+        text-align: center;
+        font-size: 50px;
+        z-index: 100;
+        
+        
+    }
+    
+   
 }
 
